@@ -13,7 +13,7 @@ import {
   CheckCircle2,
   Clock
 } from 'lucide-react';
-import logoBoardImg from '../assets/images/sajida-hospital-logo-board.png';
+import heroDoctorImg from '../assets/images/hero-doctor-care.png';
 
 export const Hero = () => {
   const { t, language } = useLanguage();
@@ -128,32 +128,33 @@ export const Hero = () => {
               {/* Outer decorative card with warm ambient glow */}
               <div className="relative rounded-3xl p-3 sm:p-4 bg-gradient-to-b from-white via-white to-sky-50 shadow-2xl border border-sky-100">
                 
-                {/* Real Hospital Acrylic Board Photo */}
+                {/* Doctor & Patient Care Banner */}
                 <div className="relative rounded-2xl overflow-hidden shadow-inner group">
                   <img
-                    src={logoBoardImg}
-                    alt="Sajida Hospital Official Acrylic Signboard at Utraula"
-                    className="w-full h-80 sm:h-96 object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
+                    src={heroDoctorImg}
+                    alt="Sajida Hospital - Where Healing Meets Hope"
+                    className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 block"
                     loading="eager"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/85 via-navy-950/25 to-transparent flex flex-col justify-end p-5 text-white text-left">
-                    <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-brand-600/90 text-white w-fit backdrop-blur-sm border border-white/20 mb-2">
-                      <ShieldCheck className="w-3.5 h-3.5" />
-                      {language === 'hi' ? 'सत्यापित अस्पताल परिसर' : 'Verified Hospital Facility'}
-                    </span>
-                    <h3 className="text-xl sm:text-2xl font-bold tracking-tight">
-                      {language === 'hi' ? 'साजिदा हॉस्पिटल' : 'Sajida Hospital'}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-cyan-200 font-medium">
-                      {language === 'hi' 
-                        ? 'आसाम रोड चौराहा, उतरौला, बलरामपुर (271604)' 
-                        : 'Asram Road Chauraha, Utraula, Balrampur (271604)'}
+                </div>
+
+                {/* Floating Top Badge: Est. 2004 Legacy */}
+                <div className="absolute -top-4 left-2 sm:-left-5 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-card border border-brand-100 flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center">
+                    <Clock className="w-5 h-5 text-brand-600" />
+                  </div>
+                  <div className="text-left">
+                    <p className="text-xs font-bold text-slate-900">
+                      {language === 'hi' ? 'स्थापना: 2004' : 'Est. 2004'}
+                    </p>
+                    <p className="text-[11px] text-brand-700 font-semibold">
+                      {language === 'hi' ? '20+ वर्ष से निरंतर सेवा' : '20+ Years in Utraula'}
                     </p>
                   </div>
                 </div>
 
-                {/* Floating Top Badge: 24/7 Emergency & Lab */}
-                <div className="absolute -top-4 -right-4 sm:-right-5 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-card border border-rose-100 flex items-center gap-3 animate-float">
+                {/* Floating Bottom Badge: 24/7 Emergency & Lab */}
+                <div className="absolute -bottom-4 right-2 sm:-right-5 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-card border border-rose-100 flex items-center gap-3 animate-float">
                   <div className="w-10 h-10 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center">
                     <Activity className="w-5 h-5 text-rose-600" />
                   </div>
@@ -166,21 +167,6 @@ export const Hero = () => {
                     </div>
                     <p className="text-[11px] text-slate-500 font-semibold">
                       {language === 'hi' ? 'एम्बुलेंस व पैथोलॉजी लैब' : '& Ambulance Service'}
-                    </p>
-                  </div>
-                </div>
-
-                {/* Floating Bottom Badge: Legacy Since 2004 */}
-                <div className="absolute -bottom-4 -left-4 sm:-left-5 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-2xl shadow-card border border-brand-100 flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center">
-                    <Clock className="w-5 h-5 text-brand-600" />
-                  </div>
-                  <div className="text-left">
-                    <p className="text-xs font-bold text-slate-900">
-                      {language === 'hi' ? 'स्थापना: 2004' : 'Est. 2004'}
-                    </p>
-                    <p className="text-[11px] text-brand-700 font-semibold">
-                      {language === 'hi' ? '20+ वर्ष से निरंतर सेवा' : '20+ Years in Utraula'}
                     </p>
                   </div>
                 </div>

@@ -16,6 +16,7 @@ import {
 import bannerImg from '../assets/images/sajida-hospital-banner.jpg';
 import contactCardImg from '../assets/images/sajida-hospital-contact-card.png';
 import logoBoardImg from '../assets/images/sajida-hospital-logo-board.png';
+import officialLogoImg from '../assets/images/sajida-hospital-logo.png';
 
 export const About = () => {
   const { t, language } = useLanguage();
@@ -89,15 +90,15 @@ export const About = () => {
               <button
                 type="button"
                 onClick={() => setModalImage({
-                  src: logoBoardImg,
-                  title: language === 'hi' ? 'साजिदा हॉस्पिटल आधिकारिक साइनबोर्ड' : 'Sajida Hospital Official Signboard',
+                  src: officialLogoImg,
+                  title: language === 'hi' ? 'साजिदा हॉस्पिटल आधिकारिक लोगो' : 'Sajida Hospital Official Logo',
                   caption: language === 'hi' 
-                    ? 'उतरौला अस्पताल परिसर में स्थापित ऐक्रेलिक बोर्ड' 
-                    : 'Acrylic brand board installed at Utraula hospital premises'
+                    ? 'डॉ० एहसान हेल्थ केयर सेन्टर का आधिकारिक पंजीकृत प्रतीक चिन्ह' 
+                    : 'Official emblem and mark of Dr. Ehsan Health Care Centre (Sajida Hospital)'
                 })}
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold text-xs tracking-wide transition-all border border-white/20"
               >
-                <span>{t.about.viewPlaque}</span>
+                <span>{language === 'hi' ? 'आधिकारिक लोगो' : 'Official Logo'}</span>
                 <Maximize2 className="w-3.5 h-3.5 ml-1" />
               </button>
             </div>
