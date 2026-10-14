@@ -33,8 +33,8 @@ export const HospitalLogo = ({
       </div>
 
       {/* Official Typography */}
-      <div className="flex flex-col text-left leading-tight">
-        <span className={`font-extrabold tracking-wide uppercase font-heading ${
+      <div className="flex flex-col text-left leading-tight whitespace-nowrap flex-shrink-0">
+        <span className={`font-extrabold tracking-wide uppercase font-heading whitespace-nowrap ${
           isLight ? "text-white" : "text-slate-900"
         } ${
           size === "sm" ? "text-sm sm:text-base tracking-wider" : 
@@ -45,7 +45,7 @@ export const HospitalLogo = ({
         </span>
         
         {showSubtitle && (
-          <span className={`text-[10px] sm:text-xs font-semibold tracking-tight ${
+          <span className={`text-[10px] sm:text-xs font-semibold tracking-tight whitespace-nowrap ${
             isLight ? "text-cyan-200" : "text-brand-700"
           }`}>
             {language === 'hi' 

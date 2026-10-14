@@ -35,14 +35,14 @@ export const TopBar = () => {
             {/* Direct Phone */}
             <a
               href={`tel:${HOSPITAL_INFO.phones.primary}`}
-              className="flex items-center gap-1.5 hover:text-white font-medium transition-colors group"
+              className="flex items-center gap-1.5 hover:text-white font-medium transition-colors group whitespace-nowrap flex-shrink-0"
               title="Call Sajida Hospital Reception & Emergency"
             >
-              <div className="w-5 h-5 rounded-full bg-brand-600/60 flex items-center justify-center group-hover:bg-brand-500 transition-colors">
+              <div className="w-5 h-5 rounded-full bg-brand-600/60 flex items-center justify-center group-hover:bg-brand-500 transition-colors flex-shrink-0">
                 <Phone className="w-3 h-3 text-white" />
               </div>
-              <span className="hidden xs:inline text-slate-400">{t.topbar.helpline}</span>
-              <span className="text-white font-bold tracking-wide">{HOSPITAL_INFO.phones.primaryDisplay}</span>
+              <span className="hidden xs:inline text-slate-400 whitespace-nowrap">{t.topbar.helpline}</span>
+              <span className="text-white font-bold tracking-wide whitespace-nowrap">{HOSPITAL_INFO.phones.primaryDisplay}</span>
             </a>
 
             {/* WhatsApp */}
@@ -50,11 +50,11 @@ export const TopBar = () => {
               href={`https://wa.me/${HOSPITAL_INFO.whatsapp.clean}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="hidden lg:flex items-center gap-1 text-emerald-400 hover:text-emerald-300 font-medium transition-colors"
+              className="hidden lg:flex items-center gap-1 text-emerald-400 hover:text-emerald-300 font-medium transition-colors whitespace-nowrap flex-shrink-0"
               title="Chat on WhatsApp"
             >
-              <MessageCircle className="w-3.5 h-3.5" />
-              <span>{HOSPITAL_INFO.whatsapp.display}</span>
+              <MessageCircle className="w-3.5 h-3.5 flex-shrink-0" />
+              <span className="whitespace-nowrap">{HOSPITAL_INFO.whatsapp.display}</span>
             </a>
 
             {/* Language Switcher */}

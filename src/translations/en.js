@@ -15,7 +15,7 @@ export const en = {
     departments: "Departments",
     doctors: "Doctors",
     facilities: "Facilities",
-    emergency: "24/7 Emergency",
+    emergency: "Emergency",
     appointment: "Book Appointment",
     contact: "Contact",
     bookBtn: "Book Appointment",
