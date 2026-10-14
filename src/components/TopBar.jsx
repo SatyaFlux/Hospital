@@ -20,7 +20,7 @@ export const TopBar = () => {
                 {language === 'hi' ? HOSPITAL_INFO.address.fullAddressHi : HOSPITAL_INFO.address.fullAddressEn}
               </span>
               <span className="sm:hidden font-medium">
-                {language === 'hi' ? 'आसाम रोड चौराहा, उतरौला' : 'Asram Road Chauraha, Utraula'}
+                {language === 'hi' ? 'आसाम रोड चौराहा, उतरौला' : 'Asam Road Chauraha, Utraula'}
               </span>
             </div>
 

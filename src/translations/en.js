@@ -2,7 +2,7 @@ export const en = {
   // TopBar
   topbar: {
     helpline: "Emergency & Ambulance 24/7:",
-    location: "Asram Road Chauraha, Utraula, Balrampur (UP) — 271604",
+    location: "Asam Road Chauraha, Utraula, Balrampur (UP) — 271604",
     callNow: "Call Hospital",
     whatsapp: "WhatsApp Chat",
     freeConsultPill: "Free Consultation Ongoing Since 2004",
@@ -51,7 +51,7 @@ export const en = {
   about: {
     badge: "About Sajida Hospital",
     title: "Compassionate, Trusted Healthcare for Utraula & Balrampur",
-    intro: "Sajida Hospital (Dr. Ehsan Health Care Centre) is a premier healthcare institution situated at Asram Road Chauraha in Utraula, Balrampur. Guided by a patient-first ethos, we provide comprehensive medical services, specialized clinical wards, and round-the-clock emergency assistance.",
+    intro: "Sajida Hospital (Dr. Ehsan Health Care Centre) is a premier healthcare institution situated at Asam Road Chauraha in Utraula, Balrampur. Guided by a patient-first ethos, we provide comprehensive medical services, specialized clinical wards, and round-the-clock emergency assistance.",
     highlight2004Title: "Proud Legacy Since 2004",
     highlight2004Desc: "For over two decades, Dr. Ehsan Health Care Centre at Sajida Hospital has maintained a proud tradition: continuous free consultation facility ongoing since 2004 for the welfare of our local community.",
     missionTitle: "Our Mission",
@@ -63,7 +63,7 @@ export const en = {
     feature3Title: "Qualified & Experienced Doctors",
     feature3Desc: "Our team includes experienced dental surgeons, general physicians, ophthalmologists, and visiting neurosurgeons.",
     officialBannerTitle: "Verified Hospital Information",
-    officialBannerSubtitle: "Based on official hospital board and doctor schedules located at Asram Road Chauraha.",
+    officialBannerSubtitle: "Based on official hospital board and doctor schedules located at Asam Road Chauraha.",
     viewBanner: "View Hospital Banner",
     viewPlaque: "View Hospital Signboard",
   },
@@ -196,7 +196,7 @@ export const en = {
     ambulanceDesc: "Need immediate patient pickup in Utraula or surrounding rural villages? Call our emergency dispatch immediately.",
     labTitle: "24/7 Diagnostic Pathology",
     labDesc: "Emergency blood profiles, sugar tests, and critical diagnostic reports round the clock.",
-    addressNotice: "Location: Asram Road Chauraha, Utraula, Balrampur (UP) — 271604",
+    addressNotice: "Location: Asam Road Chauraha, Utraula, Balrampur (UP) — 271604",
   },
 
   // Appointment Section
@@ -250,9 +250,9 @@ export const en = {
   contact: {
     badge: "Reach Us",
     title: "Hospital Address & Contact Information",
-    subtitle: "Located centrally at Asram Road Chauraha in Utraula, Balrampur, Uttar Pradesh.",
+    subtitle: "Located centrally at Asam Road Chauraha in Utraula, Balrampur, Uttar Pradesh.",
     addressCardTitle: "Hospital Address",
-    addressLine1: "Asram Road Chauraha",
+    addressLine1: "Asam Road Chauraha",
     addressLine2: "Utraula, Balrampur",
     addressLine3: "Uttar Pradesh, India — 271604",
     phoneCardTitle: "Phone Contact",

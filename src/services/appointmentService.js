@@ -66,7 +66,7 @@ Preferred Doctor: *${doctor || 'Any Available Specialist'}*
 Date: *${preferredDate}*
 Slot: *${preferredTime}*
 ${message ? `Notes: ${message}\n` : ''}
-Hospital Address: Asram Road Chauraha, Utraula, Balrampur, UP (PIN: 271604)
+Hospital Address: Asam Road Chauraha, Utraula, Balrampur, UP (PIN: 271604)
 Please confirm my appointment slot. Thank you.`;
 
   return `https://wa.me/${HOSPITAL_INFO.whatsapp.clean}?text=${encodeURIComponent(text)}`;

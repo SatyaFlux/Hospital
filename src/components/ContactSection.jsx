@@ -43,7 +43,7 @@ export const ContactSection = () => {
 From: ${contactForm.name}
 Phone: ${contactForm.phone}
 Message: ${contactForm.message}
-Address: Asram Road Chauraha, Utraula, Balrampur (UP)`;
+Address: Asam Road Chauraha, Utraula, Balrampur (UP)`;
 
     const url = `https://wa.me/${HOSPITAL_INFO.whatsapp.clean}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
@@ -53,7 +53,7 @@ Address: Asram Road Chauraha, Utraula, Balrampur (UP)`;
   };
 
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-    'Asram Road Chauraha Utraula Balrampur Uttar Pradesh 271604'
+    'Asam Road Chauraha Utraula Balrampur Uttar Pradesh 271604'
   )}`;
 
   return (
@@ -212,7 +212,7 @@ Address: Asram Road Chauraha, Utraula, Balrampur (UP)`;
                   <span className="text-xs font-bold text-slate-800">
                     {language === 'hi' 
                       ? 'अस्पताल स्थिति (आसाम रोड चौराहा, उतरौला)' 
-                      : 'Hospital Map: Asram Road Chauraha, Utraula'}
+                      : 'Hospital Map: Asam Road Chauraha, Utraula'}
                   </span>
                 </div>
                 <a

@@ -149,7 +149,7 @@ export const AppointmentSuccessModal = ({ result, onClose }) => {
           <p>
             {language === 'hi'
               ? 'आसाम रोड चौराहा, उतरौला, बलरामपुर (271604) • फोन: 09839620619'
-              : 'Asram Road Chauraha, Utraula, Balrampur (271604) • Phone: 09839620619'}
+              : 'Asam Road Chauraha, Utraula, Balrampur (271604) • Phone: 09839620619'}
           </p>
         </div>
 

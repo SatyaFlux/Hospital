@@ -255,7 +255,7 @@ export const Footer = () => {
                   <p>
                     {language === 'hi'
                       ? 'यह वेबसाइट सामान्य स्वास्थ्य जागरूकता और साजिदा हॉस्पिटल (आसाम रोड चौराहा, उतरौला, बलरामपुर) में परामर्श अनुरोध हेतु प्रदान की गई है।'
-                      : 'This website is provided for informational and appointment request coordination for Sajida Hospital located at Asram Road Chauraha, Utraula, Balrampur.'}
+                      : 'This website is provided for informational and appointment request coordination for Sajida Hospital located at Asam Road Chauraha, Utraula, Balrampur.'}
                   </p>
                   <p>
                     {language === 'hi'

@@ -60,7 +60,7 @@ export const About = () => {
               <div className="flex flex-wrap items-center gap-4 pt-2 text-xs font-medium text-slate-200">
                 <span className="flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg backdrop-blur-sm">
                   <MapPin className="w-3.5 h-3.5 text-cyan-400" />
-                  {language === 'hi' ? 'आसाम रोड चौराहा, उतरौला' : 'Asram Road Chauraha, Utraula'}
+                  {language === 'hi' ? 'आसाम रोड चौराहा, उतरौला' : 'Asam Road Chauraha, Utraula'}
                 </span>
                 <span className="flex items-center gap-1.5 bg-white/10 px-3 py-1.5 rounded-lg backdrop-blur-sm">
                   <Phone className="w-3.5 h-3.5 text-cyan-400" />

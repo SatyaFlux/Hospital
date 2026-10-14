@@ -12,7 +12,7 @@ export const HOSPITAL_INFO = {
   taglineHi: "2004 से निःशुल्क परामर्श की सुविधा निरन्तर जारी",
   
   address: {
-    line1En: "Asram Road Chauraha",
+    line1En: "Asam Road Chauraha",
     line1Hi: "आसाम रोड चौराहा",
     cityEn: "Utraula",
     cityHi: "उतरौला",
@@ -22,7 +22,7 @@ export const HOSPITAL_INFO = {
     stateHi: "उत्तर प्रदेश",
     pincode: "271604",
     country: "India",
-    fullAddressEn: "Asram Road Chauraha, Utraula, Balrampur, Uttar Pradesh, India - 271604",
+    fullAddressEn: "Asam Road Chauraha, Utraula, Balrampur, Uttar Pradesh, India - 271604",
     fullAddressHi: "आसाम रोड चौराहा, उतरौला, बलरामपुर, उत्तर प्रदेश, भारत - 271604",
   },
 
